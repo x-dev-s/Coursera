@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	font-family: candara;
+	margin: 10px;
+}
+
+h1{
+	text-align: center;
+	padding: 20px;
+}
+
+section{
+	float: left;
+	width: 33.33333333%;
+	padding: 10px;
+}
+
+article{
+	border: 1px solid black;
+	background-color: lightblue;
+	height: 450px;
+
+}
+
+div{
+	border: 1px solid black;
+	background-color: lightgray;
+	font-size: 14px;
+	text-align: center;
+	width: 40%;
+	margin-left: 60%;
+}
+
+p{
+	text-align: justify;
+	padding: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	section{
+		padding: 10px;
+		width: 50%;
+	}
+	section:last-child{
+		width: 100%;
+	}
+	section:last-child div{
+		width: 20%;
+		margin-left: 80%;
+	}
+}
+
+@media (max-width: 767px){
+	section{
+		width: 100%;
+		padding: 10px;
+	}
+}
