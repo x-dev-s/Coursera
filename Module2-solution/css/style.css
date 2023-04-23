@@ -22,8 +22,7 @@ section{
 article{
 	border: 1px solid black;
 	background-color: lightblue;
-	height: 450px;
-
+	height: 420px;
 }
 
 div{
@@ -52,11 +51,17 @@ p{
 		width: 20%;
 		margin-left: 80%;
 	}
+	article{
+		height: 320px;
+	}
 }
 
 @media (max-width: 767px){
 	section{
 		width: 100%;
 		padding: 10px;
+	}
+	article{
+		height: 450px;
 	}
 }
