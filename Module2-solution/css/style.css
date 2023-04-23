@@ -23,6 +23,7 @@ article{
 	border: 1px solid black;
 	background-color: lightblue;
 	height: 420px;
+	overflow: hidden;
 }
 
 div{
