@@ -1,0 +1,10 @@
+body{
+	background-color: lightgray;
+}
+.nav-item{
+	text-align: center;
+	font-size: 1.2rem;
+}
+.nav-item a:hover{
+	background-color: lightgray;
+}
